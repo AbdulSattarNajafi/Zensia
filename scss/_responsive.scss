@@ -1,0 +1,456 @@
+@media (max-width: 991.98px) {
+  #container{
+    padding: 0 1rem;
+  }
+  .design{
+    .coffe-content{
+      padding: 1rem 2rem 2rem 2rem;
+    }
+    .content{
+      padding: 0 2rem;
+    }
+    .distance{
+      padding: 2rem;
+    }
+  }
+  .modular{
+    .modular-content{
+      padding: 2rem;
+      .modular-desc{
+        width: 65%;
+        padding: 6rem 0 0 3rem;
+      }
+    }
+    .cards-wrapper{
+      padding: 0 2rem 1rem 2rem;
+      .cards-container .card{
+        width: 31%;
+      }
+    }
+    .environment{
+      padding: 0 2rem 1rem 2rem;
+      .empty{
+        width: 0;
+      }
+      .environment-desc{
+        width: 75%;
+      }
+      .img-container{
+        width: 25%;
+      }
+    }
+  }
+  .footer .container{
+    flex-flow: row wrap;
+    .countries{
+      min-width: 23%;
+    }
+  }
+}
+/*============Responsive for Ipad Screens==============*/
+@media (max-width: 851.98px) {
+  .design{
+    .coffe-content{
+      padding: 1rem 0 2rem 0;
+    }
+    .content{
+      padding: 0;
+    }
+    .distance{
+      padding: 0;
+      padding-bottom: 2rem;
+      .distance-desc{
+        padding-left: 2rem;
+      }
+    }
+  }
+  .modular{
+    .modular-content{
+      padding: 2rem 0 ;
+      .modular-desc{
+        padding: 4rem 0 0 2rem;
+      }
+    }
+    .cards-wrapper{
+      padding: 0 0 1rem 0;
+      .cards-container .card{
+        width: 32%;
+      }
+    }
+    .environment{
+      padding: 0 0 1rem 0;
+    }
+  }
+  .row .dark-bg{
+    width: 26%;
+  }
+  .technical{
+    .fresh-brew{
+      .empty{
+        width: 26%;
+      }
+      .expresson{
+        width: 37%;
+      }
+      .tea{
+        width: 37%;
+      }
+    }
+    .row{
+      .flex{
+        width: 74%;
+      }
+      .chart{
+        width: 50%;
+        .chart-container{
+          margin-left: 0;
+        }
+      }
+    }
+    .row{
+      .desc, .dash{
+        width: 50%;
+        .detail{
+          margin-left: 10%;
+        }
+      }
+    }
+    .row .two-rows{
+      width: 74%;
+      display: flex;
+      flex-direction: column;
+      .center{
+        width: 99.2%;
+      }
+      .buttom-row{
+        display: flex;
+        .dash{
+          width: 50%;
+        }
+      }
+    }
+    .row .center{
+      width: 74%;
+      .detail{
+        margin-left: 5%;
+      }
+    }
+  }
+}
+/*============Responsive for Mobile Screens============*/
+@media (max-width: 767.98px) {
+  /*Fist Page*/
+  .page{
+    flex-direction: column;
+    .image-container{
+      width: 100%;
+    }
+    .text-container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0;
+      margin-bottom: 1.4rem;
+      .heading{
+        padding: 0;
+      }
+    }
+  }
+  /*Second Page*/
+  .design{
+    margin-top:0;
+    .heading{
+      width: 100%;
+      text-align: left;
+      margin-top: 2rem;
+    }
+    .coffe-content{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 0 2rem 0;
+      .img-container{
+        width: 100%;
+      }
+      .coffee-desc{
+        width: 100%;
+        padding-top: 0;
+      }
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      .coffee-desc{
+        width: 100%;
+        padding-top: 0;
+      }
+      .img-container{
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+    .distance{
+      display: flex;
+      align-items: flex-start;
+      padding: 0;
+      padding-bottom: 2rem;
+      .img-container{
+        width: 30%;
+      }
+      .distance-desc{
+        width: 70%;
+        padding-left: 1rem;
+        padding-bottom:0;
+      }
+    }
+  }
+  /*Third Page*/
+  .modular{
+    margin-top: 1rem;
+    .modular-content{
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 0 0 0;
+      .img-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .modular-desc{
+        width: 100%;
+        padding:1rem 0;
+      }
+    }
+    .cards-wrapper{
+      padding: 0;
+      .cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem 0 0 0;
+        .card{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom: 2rem;
+          .first-para{
+            margin-top: .5rem;
+          }
+        }
+      }
+    }
+    .environment{
+      padding-bottom: 2rem;
+      margin-top:0;
+      display: flex;
+      .environment-desc{
+        width: 85%;
+      }
+      .img-container{
+        padding-top: 2rem;
+        width: 15%;
+      }
+    }
+  }
+  /*Fourth Page*/
+  .technical{
+    margin-top: 0;
+    .fresh-brew{
+      justify-content: space-between;
+      margin-top: 1rem;
+      .empty{
+        display: none;
+      }
+      .expresson{
+        width: 50%;
+        margin-left: 0;
+      }
+      .tea{
+        width: 50%;
+      }
+    }
+    .row{
+      flex-direction: column;
+      .dark-bg{
+        margin-top: 1rem;
+        margin-bottom: .4rem;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+    .row{
+      .flex{
+        display: flex;
+        width: 100%;
+      }
+      .chart-bg{
+        padding: 1rem;
+      }
+      .chart{
+        width: 50%;
+        display: flex;
+        justify-content:center;
+        margin-top: .8rem;
+        margin-left: 0;
+        padding: .8rem;
+        box-shadow: $box-shadow;
+        .chart-container{
+          margin-left: 0;
+        }
+      }
+    }
+    .row{
+      .desc, .dash{
+        width: 50%;
+        margin-left: 0;
+        padding: .8rem;
+        box-shadow: $box-shadow;
+        .detail{
+          margin-left: 25%;
+          p{
+            color: black;
+            font-size: .9rem;
+          }
+        }
+      }
+      .dash{
+        padding: .2rem;
+        .center-text{
+          text-align: center;
+          color: black;
+          font-size: .9rem;
+        }
+      }
+    }
+    .row .two-rows{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .center{
+        width: 100%;
+        box-shadow: $box-shadow;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: .4rem;
+        padding: .2rem;
+      }
+      .buttom-row{
+        display: flex;
+        .dash{
+          width: 50%;
+        }
+      }
+    }
+    .row .center{
+      width: 100%;
+      box-shadow: $box-shadow;
+      margin-left: 0;
+      text-align: center;
+      padding: .2rem;
+      p{
+        color: black;
+        font-size: .9rem;
+      }
+      .center-text{
+        text-align: center;
+      }
+      .detail{
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+  }
+  /*Footer*/
+  .footer{
+    padding: 1rem 0;
+    .container{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      .countries{
+        width: 32%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+/*============Responsive for Extra Small Screens============*/
+@media (max-width: 515.98px) {
+  .page{
+    flex-direction: column;
+    .image-container{
+      width: 100%;
+    }
+    .text-container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .heading{
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  /*Fourth Page*/
+  .technical{
+    margin-top: 0;
+    .row{
+      .flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .chart-bg{
+        padding: 1rem;
+      }
+      .chart{
+        width: 100%;
+        .chart-container{
+          margin-left: 0;
+        }
+      }
+    }
+    .row{
+      .desc, .dash{
+        width: 100%;
+        margin-bottom: .5rem;
+      }
+      .dash{
+        padding: .2rem;
+        .center-text{
+          text-align: center;
+          color: black;
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+  /*Footer*/
+  .footer{
+    .container{
+      .countries{
+        width: 49%;
+      }
+    }
+    .logoes{
+      flex-flow: row wrap;
+      .footer-logo{
+        width: 49%;
+      }
+      .footer-links{
+        width: 49%;
+      }
+      .right-logo{
+        margin-top: 1rem;
+        width: 60%;
+      }
+    }
+  }
+}
